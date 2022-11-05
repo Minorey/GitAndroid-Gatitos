@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+ print("esto es un ejemplo")
         val recycler = findViewById<RecyclerView>(R.id.recycler)
 
         val layoutManager = GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
